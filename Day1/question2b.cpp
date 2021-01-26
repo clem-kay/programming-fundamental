@@ -1,7 +1,7 @@
 #include <bits/stdc++.h> 
 #include<iostream>
 
-calculateMean(int array[], int size)
+void calculateMean(int array[], int size)
 {
 	int total=0;
 	for (int i=0;i<size;i++){
@@ -10,7 +10,7 @@ calculateMean(int array[], int size)
 	std::cout<<"The mean is "<<total<<std::endl;
 }
 
-findMedian(int array[], int size){
+void findMedian(int array[], int size){
 	std::cout<<"The median is "<<array[2]<<std::endl;
 }
 
@@ -33,7 +33,4 @@ int main()
 	//calculating the mean
 	calculateMean(array, total);
 	findMedian(array,total);
-//	findMode(array,total);
-	
-	
 }
