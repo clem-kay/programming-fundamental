@@ -1,6 +1,6 @@
 #include<iostream>
 
-int input();
+void input();
 
 void output(int num1 ,int num2);
 
@@ -9,7 +9,7 @@ int main(){
 	input();
 }
 
-int input (){
+void input (){
 	int num1,num2;
 	std::cout<<"Enter two integers: ";
 	std::cin>>num1>>num2;

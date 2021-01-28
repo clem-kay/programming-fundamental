@@ -13,7 +13,7 @@ void getInput() {
 
 void operation (int num1, int num2) {
 	char op;
-	cout<<"Please input operation:";
+	cout<<"Please input an operator:";
 	cin>>op;
 	
 	switch (op){
